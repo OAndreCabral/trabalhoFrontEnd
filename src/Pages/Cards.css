@@ -1,0 +1,42 @@
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 4, 87);
+    align-items: center;
+}
+
+.CardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Card img {
+    width: 200px;
+    height: 200px;
+}
+
+.pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.pag-button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(15, 4, 87);
+    color: white;
+    border: 1px solid white;
+}
